@@ -1,0 +1,36 @@
+﻿  State.cpp
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(33): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(69): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(342): warning C4018: '<': signed/unsigned mismatch
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(306): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(475): note: see declaration of 'ctime'
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(410): warning C4018: '<': signed/unsigned mismatch
+c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(558): warning C4018: '<': signed/unsigned mismatch
+c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(215): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+  c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(228): note: see reference to function template instantiation 'void LoadPEHeaderValue<T>(T *,wchar_t *)' being compiled
+          with
+          [
+              T=unsigned short
+          ]
+  c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(231): note: see reference to function template instantiation 'void InsertItem<unsigned short>(int,LPWSTR,T *)' being compiled
+          with
+          [
+              T=unsigned short
+          ]
+c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(215): warning C4477: 'swprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+  c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(215): note: consider using '%llx' in the format string
+  c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(215): note: consider using '%I64x' in the format string
+  c:\users\s_hagoo119\source\repos\pehr\pehr\commonheader.h(228): note: see reference to function template instantiation 'void LoadPEHeaderValue<T>(T *,wchar_t *)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  c:\users\s_hagoo119\source\repos\pehr\pehr\state.cpp(374): note: see reference to function template instantiation 'void InsertItem<unsigned __int64>(int,LPWSTR,T *)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  PEHR.vcxproj -> C:\Users\s_hagoo119\source\repos\PEHR\Debug\PEHR.exe
